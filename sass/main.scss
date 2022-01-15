@@ -69,3 +69,16 @@ body {
 		}
 	}
 }
+
+// header
+.header{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	width: 75vh;
+	text-align: center;
+	color: $pure-white;
+	// @include heroImages('../img/header-mini.jpg')
