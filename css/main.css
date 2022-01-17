@@ -7,7 +7,7 @@
 .white-block {
   position: absolute;
   height: 40px;
-  width: 60px;
+  width: 60%;
   background-color: #fff;
 }
 
@@ -36,7 +36,7 @@
 .btn-special-animation::before {
   display: block;
   content: '';
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -128,8 +128,8 @@ body {
 .burger-btn__bars::before {
   top: 27px;
   width: 30%;
-  -webkit-transition-delay: .1s;
-          transition-delay: .1s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 .header {
@@ -148,8 +148,40 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 2em;
-  width: 75vh;
+  height: 75vh;
   text-align: center;
   color: #fff;
+  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../img/header-mini.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-attachment: scroll;
+}
+
+.header__heading {
+  font-family: "Dancing Script" ,cursive;
+  font-size: 4.8 rem;
+  font-weight: 300;
+}
+
+.header__text {
+  font-size: 1.4rem;
+}
+
+.header__btn {
+  margin-top: 2em;
+  padding: .8em 1.6em;
+  font-size: 1.4rem;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  color: #2e2e2e;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header__btn::before {
+  background-color: #eee;
 }
 /*# sourceMappingURL=main.css.map */

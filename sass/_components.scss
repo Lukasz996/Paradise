@@ -7,7 +7,7 @@
 .white-block {
 	position: absolute;
 	height: 40px;
-	width: 60px;
+	width: 60%;
 	background-color: $pure-white;
 
 	&-left {
@@ -32,7 +32,7 @@
 	&::before {
 		display: block;
 		content: '';
-		position: relative;
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
