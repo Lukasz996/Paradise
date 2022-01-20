@@ -212,7 +212,7 @@ body {
   }
 }
 
-.nav-items-animation {
+.burger-btn .nav-items-animation {
   -webkit-animation: navItemsAnimation 3s;
           animation: navItemsAnimation 3s;
 }

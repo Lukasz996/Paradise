@@ -21,6 +21,7 @@ const handleNavItemsAnimation = () => {
         item.classList.toggle('nav-items-animation')
         item.style.animationDelay = '.' + delayTime + 's';
         delayTime++;
+       
     })
 }
 

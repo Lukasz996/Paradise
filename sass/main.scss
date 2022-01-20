@@ -111,21 +111,21 @@ body {
 			transition-delay: 0.1s;
 		}
 	}
-}
-
-@keyframes navItemsAnimation {
-	from {
-		transform: translateX(200%);
+	@keyframes navItemsAnimation {
+		from {
+			transform: translateX(200%);
+		}
+	
+		to {
+			transform: translateX(0);
+		}
 	}
-
-	to {
-		transform: translateX(0);
+	
+	.nav-items-animation {
+		animation: navItemsAnimation 3s;
 	}
 }
 
-.nav-items-animation {
-	animation: navItemsAnimation 3s;
-}
 // header
 .header {
 	position: relative;
