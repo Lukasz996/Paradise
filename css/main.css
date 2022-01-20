@@ -213,8 +213,8 @@ body {
 }
 
 .nav-items-animation {
-  -webkit-animation: navItemsAnimation 1s;
-          animation: navItemsAnimation 1s;
+  -webkit-animation: navItemsAnimation 3s;
+          animation: navItemsAnimation 3s;
 }
 
 .header {
